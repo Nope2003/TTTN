@@ -1,0 +1,533 @@
+*{
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+::placeholder{
+    color: #E4E5E7;
+}
+
+
+a{
+    color: white !important; 
+    cursor: pointer !important; 
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+
+
+
+
+
+div{
+    display: block;
+}
+
+img {
+    vertical-align: middle; /* loại bỏ khoảng trắng dưới ảnh */
+}
+
+body{
+    color: #4a4a4a;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #F5F5F6;
+}
+
+.header {
+    background-color: #F05626;
+    
+}
+
+.first-header > *{
+    display: flex;
+    gap: 44px;
+    
+}
+
+.first-header > *> *{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
+
+.first-header{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin: auto;
+    
+
+}
+
+.seccond-header{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 16px;
+    gap: 40px;
+}
+
+.seccond-header-two{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.input-search{
+    width: 800px;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 40px;
+    border-radius: 4px;
+    border: 0;
+}
+
+.avatar-wrapper{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+
+}
+
+
+
+.btn_add_listing{
+    padding-right: 58px;
+    
+}
+
+.icon-search{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.button{
+    white-space: nowrap;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 0 32px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+
+
+.icon-preferences{
+    position: absolute;
+    margin-left: 750px;
+}
+
+.add{
+    margin-left: 10px;
+}
+
+section{
+    padding: 1rem;
+
+    margin: auto;
+    
+}
+
+.card-content h2{
+    color: #23242A;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.card-content a{
+    color: #4a4a4a;
+}
+
+.card-content{
+    background-color: #FFFFFF;
+    color: #4a4a4a;
+    padding: 1.5rem;
+    font-size: 18px;
+    border-radius: 0.25rem;
+    width: 1152px;
+    margin: auto;
+}
+
+.tag{
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    color: #4a4a4a;
+    display: inline-flex;
+    font-size: .75rem;
+    height: 2em;
+    justify-content: center;
+    line-height: 1.5;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    white-space: nowrap;
+    font-weight: 400px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.popular-keyword .tag {
+    background-color: #FFFFFF;
+    border: 1px solid #E4E5E7;
+    padding: 4px 6px;
+    height: unset;
+    font-size: 14px;
+    color: #4a4a4a !important;
+    
+}
+
+.popular-keyword {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    gap: 8px 12px;
+    
+}
+
+.black{
+    background-color: #FFFFFF;
+    border: 1px solid #E4E5E7;
+    padding: 4px 6px;
+    height: unset;
+    font-size: 14px;
+    color: #4a4a4a !important;
+}
+
+.columns{
+    float: left;
+    display: block;
+    flex: none;
+    padding: 0px;
+}
+
+.mid-one{
+    width: 1200px;
+    margin: auto;
+}
+
+.mid-one h2{
+    color: #23242A;
+    font-size: 18px;
+}
+
+.list-car{
+    background-color: #FFFFFF;
+}
+
+.car-name {
+    color: #23242A !important;
+    font-weight: 700;
+}
+
+.car-price{
+    color: #23242A !important;
+    font-weight: 700;
+}
+
+.list-car-info{
+    font-size: 13px;
+    color: #818593;
+    padding: 1rem;
+    height: 150px;
+    background-color: #FFFFFF;
+    
+    
+}
+
+.list-car-image img{
+    width: 284px;
+    height: 171px;
+    object-fit: cover;
+    border-radius: 5px;
+   
+    
+}
+
+.columns{
+    padding: 0.5rem;
+    width: 284px;
+    border-radius: 50px;
+   
+    
+}
+
+.xemthem {
+    color: #F05626;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    clear: both;
+}
+
+.mid-two{
+    width: 1200px;
+    margin: auto;
+}
+
+.list-salon{
+    background-color: #FFFFFF;
+    height: 571px;
+    border-radius: 5px;
+    font-weight: 700;
+    
+}
+
+
+
+.list-salon a{
+    font-size: 16px;
+    color: #23242A;
+    font-family: Roboto;
+    background-color: white;
+    
+}
+
+.salon-columns{
+    display: flex;
+    gap: 12px;
+    background-color: white;
+    padding: 24px 24px 24px 24px;
+    float: left;
+    width: 552px; 
+}
+
+.salon-img img{
+    width: 160px;
+    min-width: 160px;
+    height: 112.5px;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+    
+.xemthem .list-salon  {
+    background-color: white;
+}
+    
+
+.salon-info{
+    background-color: white;
+}
+
+.location{
+    font-size: 13px;
+    color: #818593;
+    margin-top: 10px;
+    font-weight: 400;
+    
+}
+
+.phone{
+    font-size: 13px;
+    color: #818593;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.xemthem a{
+    color: #F05626;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.card-contents{
+    height: 990px;
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 20px;
+    color: #23242A;
+    font-family: Roboto;
+    padding: 24px 24px 0px 24px;
+}
+
+.icons-car img{
+    max-height: 80px;
+    max-width: 80px;
+    justify-content: center;
+}
+
+.brand-item{
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #E4E5E7;
+    border-radius: 3px;
+    padding: 10px 18px;
+    font-size: 18px;
+    line-height: 28px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+}
+
+.columns-icons-car{
+    float: left;
+    background-color: white;
+    padding: 8px;
+    width: 184px;
+}
+
+.card-contents span{
+    color: #23242A;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-section{
+    background-color: #23242A; 
+    padding: 3.5rem 0;
+    color: white;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.footer-content{
+    width: 400px;
+    font-size: 14px;
+}
+
+.footer_link a:nth-child(1){
+    margin-top: 2rem;  
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-link a{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.footer-content-wrapper{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text-footer-one{
+    font-size: 14px;
+}
+
+.text-footer-two{
+    font-size: 14px;
+    margin: 24px 0px 0px;
+}
+
+.text-footer-three{
+    font-size: 12px;
+    margin: 24px 0px 0px;
+    display: inline-flex;
+    gap: 50px;
+}
+
+.footer-img{
+    margin: 24px 0px 0px;
+}
+
+.button2{
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.5em - 1px);
+    
+    padding-top: calc(0.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.footer-section .hotline{
+    border: 1px solid #F05626;
+    border-radius: 6px;
+    color: #F05626;
+    background-color: #23242A;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.agent{
+    background: #F05626;
+    border-radius: 6px;
+    border: 0;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+.footer-hotline{
+    width: 470px;
+}
+
+.col-lg-4{
+    text-align: center;
+}
+
+
+.salon-info a{
+    color: black !important; 
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 10%;
+    z-index: 1;
+}
+
+.subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}

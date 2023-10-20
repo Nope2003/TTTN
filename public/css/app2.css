@@ -1,0 +1,45 @@
+.all-body{
+    display: flex;
+    gap: 10px;
+}
+
+.content-img{
+    width: 80%; 
+    text-align: center;
+    padding: 20px; 
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+   
+}
+
+.content-text{
+    text-align: left;
+}
+
+.sidebar{
+    width: 20%;
+    float: right;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    clear: right;
+    height: 300px;
+    
+}
+
+.phone{
+    width: 100%;
+    background-color: #F05626;
+    color: white !important;
+    height: 40px;
+}
+
+.caraudit{
+    width: 100%;
+    margin-top: 10px;
+    border-color: #F05626 !important;
+    color: #F05626 !important;
+    height: 40px;
+    background-color: #fff;
+}
+
